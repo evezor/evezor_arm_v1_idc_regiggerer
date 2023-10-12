@@ -1,0 +1,204 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J1
+U 1 1 5ED57B16
+P 5650 2950
+F 0 "J1" H 5700 3450 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 5650 3550 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 5650 2950 50  0001 C CNN
+F 3 "~" H 5650 2950 50  0001 C CNN
+	1    5650 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J2
+U 1 1 5ED587EB
+P 6600 2900
+F 0 "J2" H 6680 2892 50  0000 L CNN
+F 1 "Conn_01x10" H 6680 2801 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 6600 2900 50  0001 C CNN
+F 3 "~" H 6600 2900 50  0001 C CNN
+	1    6600 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3150 6100 3150
+Wire Wire Line
+	6100 3400 6400 3400
+Wire Wire Line
+	5950 3050 6200 3050
+Wire Wire Line
+	6200 3050 6200 3200
+Wire Wire Line
+	6200 3200 6400 3200
+Wire Wire Line
+	5450 3150 5450 3450
+Wire Wire Line
+	5450 3450 6350 3450
+Wire Wire Line
+	6350 3450 6350 3300
+Wire Wire Line
+	6350 3300 6400 3300
+Wire Wire Line
+	5450 3050 5400 3050
+Wire Wire Line
+	5400 3050 5400 3500
+Wire Wire Line
+	5400 3500 6300 3500
+Wire Wire Line
+	6300 3500 6300 3100
+Wire Wire Line
+	6300 3100 6400 3100
+Wire Wire Line
+	5450 2950 5350 2950
+Wire Wire Line
+	5350 2950 5350 3550
+Wire Wire Line
+	5350 3550 6250 3550
+Wire Wire Line
+	6250 2900 6400 2900
+Wire Wire Line
+	6250 2900 6250 3550
+Wire Wire Line
+	5950 2950 6200 2950
+Wire Wire Line
+	6200 2950 6200 3000
+Wire Wire Line
+	6200 3000 6400 3000
+Wire Wire Line
+	5950 2850 6100 2850
+Wire Wire Line
+	6100 2850 6100 2800
+Wire Wire Line
+	6100 2800 6400 2800
+Wire Wire Line
+	5950 2750 5950 2600
+Wire Wire Line
+	5450 2850 5350 2850
+Wire Wire Line
+	5350 2850 5350 2550
+Wire Wire Line
+	5350 2550 6050 2550
+Wire Wire Line
+	6050 2550 6050 2700
+Wire Wire Line
+	6050 2700 6400 2700
+Wire Wire Line
+	6400 2400 6400 2500
+Wire Wire Line
+	5450 2400 5450 2750
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J3
+U 1 1 5ED6973F
+P 7550 2950
+F 0 "J3" H 7600 3450 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 7550 3550 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 7550 2950 50  0001 C CNN
+F 3 "~" H 7550 2950 50  0001 C CNN
+	1    7550 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J4
+U 1 1 5ED69749
+P 8500 2900
+F 0 "J4" H 8580 2892 50  0000 L CNN
+F 1 "Conn_01x10" H 8580 2801 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 8500 2900 50  0001 C CNN
+F 3 "~" H 8500 2900 50  0001 C CNN
+	1    8500 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 3150 8000 3150
+Wire Wire Line
+	8000 3400 8300 3400
+Wire Wire Line
+	7850 3050 8100 3050
+Wire Wire Line
+	8100 3050 8100 3200
+Wire Wire Line
+	8100 3200 8300 3200
+Wire Wire Line
+	7350 3150 7350 3450
+Wire Wire Line
+	7350 3450 8250 3450
+Wire Wire Line
+	8250 3450 8250 3300
+Wire Wire Line
+	8250 3300 8300 3300
+Wire Wire Line
+	7350 3050 7300 3050
+Wire Wire Line
+	7300 3050 7300 3500
+Wire Wire Line
+	7300 3500 8200 3500
+Wire Wire Line
+	8200 3500 8200 3100
+Wire Wire Line
+	8200 3100 8300 3100
+Wire Wire Line
+	7350 2950 7250 2950
+Wire Wire Line
+	7250 2950 7250 3550
+Wire Wire Line
+	7250 3550 8150 3550
+Wire Wire Line
+	8150 2900 8300 2900
+Wire Wire Line
+	8150 2900 8150 3550
+Wire Wire Line
+	7850 2950 8100 2950
+Wire Wire Line
+	8100 2950 8100 3000
+Wire Wire Line
+	8100 3000 8300 3000
+Wire Wire Line
+	7850 2850 8000 2850
+Wire Wire Line
+	8000 2850 8000 2800
+Wire Wire Line
+	8000 2800 8300 2800
+Wire Wire Line
+	7850 2750 7850 2600
+Wire Wire Line
+	7350 2850 7250 2850
+Wire Wire Line
+	7250 2850 7250 2550
+Wire Wire Line
+	7250 2550 7950 2550
+Wire Wire Line
+	7950 2550 7950 2700
+Wire Wire Line
+	7950 2700 8300 2700
+Wire Wire Line
+	8300 2400 8300 2500
+Wire Wire Line
+	7350 2400 7350 2750
+Wire Wire Line
+	6100 3150 6100 3400
+Wire Wire Line
+	5950 2600 6400 2600
+Wire Wire Line
+	5450 2400 6400 2400
+Wire Wire Line
+	7850 2600 8300 2600
+Wire Wire Line
+	7350 2400 8300 2400
+Wire Wire Line
+	8000 3150 8000 3400
+$EndSCHEMATC
